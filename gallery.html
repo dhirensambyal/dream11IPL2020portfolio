@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EvenzOne</title>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="row">
+        <img src="images/logo.png" class="logo" width=50% height=100%>
+        <ul class="main-nav">
+          <li><a href="file:///C:/Users/hp/Desktop/website/index.html">Home</a></li>
+          <li><a href="#"><div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">SERVICES</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="file:///C:/Users/hp/Desktop/website/services.html">Wedding Planning</a>
+    <a href="file:///C:/Users/hp/Desktop/website/business.html">Business Meetups</a>
+    <a href="file:///C:/Users/hp/Desktop/website/celebrity.html">Celebrity Management</a>
+  </div>
+</div></li>
+          <li><a href="file:///C:/Users/hp/Desktop/website/gallery.html">Gallery</a></li>
+          <li><a href="file:///C:/Users/hp/Desktop/website/celebrity.html#">Contact us</a></li><br><br>
+          <h3 color="white">Click on the images to see the effect</h3>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="gallery">
+    <img src="C:/Users/hp/Desktop/website/images/gallery1.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery2.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery3.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery4.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery3.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery2.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery1.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery2.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery4.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery1.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery3.jpg" width =300px height=200px>
+    <img src="C:/Users/hp/Desktop/website/images/gallery2.jpg" width =300px height=200px>
+    </div>
+         
+    <marquee color="green"><h1>INDEPENDECE DAY EARLY BID OFFER UPTO 25%</h1></marquee>
+  </div>
+  </header>
+  <script type="text/javascript">function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+</body>
+</html>

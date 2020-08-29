@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EvenzOne</title>
+    <link rel="stylesheet" type="text/css" href="css/wedding.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="row">
+        <img src="images/logo.png" class="logo" width=50% height=100%>
+        <ul class="main-nav">
+          <li><a href="file:///C:/Users/hp/Desktop/website/index.html">Home</a></li>
+          <li><a href="#"><div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">SERVICES</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="file:///C:/Users/hp/Desktop/website/services.html">Wedding Planning</a>
+    <a href="file:///C:/Users/hp/Desktop/website/business.html">Business Meetups</a>
+    <a href="file:///C:/Users/hp/Desktop/website/celebrity.html">Celebrity Management</a>
+  </div>
+</div></li>
+          <li><a href="file:///C:/Users/hp/Desktop/website/gallery.html">Gallery</a></li>
+          <li><a href="#">Contact us</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    
+    <div class="main-content-header">
+    <h1>WE WILL HELP YOU CREATING YOUR<span> WEDDING</span> MEMORABLE.<br>BECAUSE MEMORIES LASTS FOREVER.</h1>
+    <a href="https://www.amazon.in/s?k=marriage+gifts&ref=nb_sb_noss_1" class="btn btn-full"> click to order</a>
+    <a href="https://en.wikipedia.org/wiki/Event_management" class="btn btn-full"> show me more</a>
+  </div>
+  </header>
+       <script type="text/javascript">function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+</body>
+</html>
